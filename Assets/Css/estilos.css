@@ -1,0 +1,90 @@
+body {
+    background-color: rgba(255, 148, 115, 0.438);
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+header {
+    background-color: aliceblue;
+    border-radius: 1.8Rem;
+    padding: 1.25rem;
+    font-style: italic;
+    font-size: 4Rem;
+    text-align: center;
+} 
+.PuntoAlpha {
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+footer {
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.PuntoBeta {
+    font-size: 1.7rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.PuntoDelta { 
+    font-size: 1.7rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.Contactame {
+    border-radius: 1.5rem;
+    padding: 1.250rem;
+    background-color: rgb(172, 91, 91);
+    color: rgb(52, 204, 153);
+    font-size: 2REM;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode';
+    text-align:center
+}
+.img {
+    max-width: 7rem;
+    max-height: 7rem;
+}
+.contactos {
+    background-color: aquamarine;
+    padding: 1.25rem;
+    border-radius: 1.8rem;
+}
+.formulario {
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+.formulario label {
+    display: block;
+    margin-bottom: 10px;
+}
+.formulario input[type="text"], 
+.formulario input[type="email"],
+.formulario input[type="tel"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.formulario input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.formulario input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.cursor {
+    width: 10px;
+    height: 10px;
+    border: 10px solid #ffffff;
+    background: #1a1a1a;
+    border-radius: 50%;
+    position: absolute;
+}
